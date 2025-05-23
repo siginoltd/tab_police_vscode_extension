@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "publisher": "siginoltd",
   "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siginoltd/tab_police_vscode_extension"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
