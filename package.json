@@ -3,7 +3,7 @@
   "displayName": "Tab Police",
   "description": "Prevents saving or closing files that contain tab characters",
   "version": "0.1.0",
-  "publisher": "siginoltd",
+  "publisher": "sigino",
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
