@@ -4,8 +4,7 @@ export function activate(context: vscode.ExtensionContext) {
     // Register event handlers for document changes and save attempts
     const disposables = [
         vscode.workspace.onWillSaveTextDocument(handleWillSave),
-        vscode.window.onDidChangeActiveTextEditor(handleEditorChange),
-        vscode.workspace.onDidCloseTextDocument(handleWillClose)
+        vscode.window.onDidChangeActiveTextEditor(handleEditorChange)
     ];
 
     context.subscriptions.push(...disposables);
@@ -22,18 +21,6 @@ function handleWillSave(event: vscode.TextDocumentWillSaveEvent) {
         event.waitUntil(
             Promise.reject(new Error('Cannot save file: Tab characters detected!'))
         );
-    }
-}
-
-function handleWillClose(document: vscode.TextDocument) {
-    if (containsTabs(document)) {
-        vscode.window.showErrorMessage(
-            `Cannot close file "${document.fileName}": Tab characters detected!`
-        );
-        // Reopen the document
-        vscode.workspace.openTextDocument(document.uri).then(doc => {
-            vscode.window.showTextDocument(doc);
-        });
     }
 }
 

@@ -1,11 +1,10 @@
 # Tab Police
 
-A VS Code extension that enforces a strict "no tabs" policy by preventing file saves and closes when tab characters are detected.
+A VS Code extension that enforces a strict "no tabs" policy by preventing file saves when tab characters are detected.
 
 ## Features
 
 - Prevents saving files that contain tab characters
-- Prevents closing files that contain tab characters
 - Shows warning messages when tab characters are detected
 - Automatically checks all open documents on startup
 
@@ -21,12 +20,11 @@ A VS Code extension that enforces a strict "no tabs" policy by preventing file s
 The extension will automatically:
 - Show a warning when you open a file containing tabs
 - Prevent saving files that contain tabs
-- Prevent closing files that contain tabs
 
 To fix files with tabs:
 1. Use VS Code's built-in "Convert Indentation to Spaces" command
 2. Or manually replace tab characters with spaces
-3. Then you'll be able to save and close the file
+3. Then you'll be able to save the file
 
 ## Requirements
 
@@ -49,5 +47,4 @@ None at the moment.
 Initial release of Tab Police:
 - Basic tab detection
 - Save prevention
-- Close prevention
 - Warning messages
