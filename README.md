@@ -42,9 +42,13 @@ None at the moment.
 
 ## Release Notes
 
-### 0.0.1
+### 0.2.0
+- Remove file close prevention feature
+- Update documentation and metadata
+- Version bump to 0.2.0
 
-Initial release of Tab Police:
-- Basic tab detection
-- Save prevention
-- Warning messages
+### 0.1.0
+- Initial release of Tab Police:
+  - Basic tab detection
+  - Save prevention
+  - Warning messages
