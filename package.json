@@ -3,6 +3,8 @@
   "displayName": "Tab Police",
   "description": "Prevents saving or closing files that contain tab characters",
   "version": "0.0.1",
+  "publisher": "siginoltd",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
