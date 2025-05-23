@@ -2,7 +2,7 @@
   "name": "tab-police",
   "displayName": "Tab Police",
   "description": "Prevents saving or closing files that contain tab characters",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "siginoltd",
   "icon": "images/icon.png",
   "repository": {
