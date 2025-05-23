@@ -1,6 +1,6 @@
 # Tab Police
 
-A VS Code extension by Sigino Ltd that enforces a strict "no tabs" policy by preventing file saves and closes when tab characters are detected.
+A VS Code extension that enforces a strict "no tabs" policy by preventing file saves and closes when tab characters are detected.
 
 ## Features
 
